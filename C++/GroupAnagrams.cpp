@@ -5,7 +5,7 @@
 std::vector<std::vector<std::string>> groupAnagrams(std::vector<std::string> &strs) { //49. Group Anagrams
 
     std::map<std::vector<int>, std::vector<std::string>> anagram_group_map;
-
+    
     for (const auto &str: strs) {
 
         std::vector<int> count;
