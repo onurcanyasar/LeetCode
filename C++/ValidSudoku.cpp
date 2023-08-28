@@ -7,7 +7,7 @@ bool isValidSudoku(std::vector<std::vector<char>> &board) { //36. Valid Sudoku
     std::unordered_map<int, std::set<char>> rows;
     std::unordered_map<int, std::set<char>> cols;
     std::map<std::vector<int>, std::set<char>> squares;
-
+    
     for (int r = 0; r < 9; ++r) {
         for (int c = 0; c < 9; ++c) {
 
